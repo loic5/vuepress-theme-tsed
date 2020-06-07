@@ -22,7 +22,7 @@
   </a>
 </template>
 <script>
-  import { getGithubMetadata } from '../../services/GithubClient'
+  import { getGithubMetadata } from '@tsed/vuepress-common'
 
   export default {
     name: 'GithubStars',

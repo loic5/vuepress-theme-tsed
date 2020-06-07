@@ -42,7 +42,7 @@
   </footer>
 </template>
 <script>
-  import { endingSlashRE, normalize, outboundRE } from '../../utils/index';
+  import { endingSlashRE, normalize, outboundRE } from '@tsed/vuepress-common';
   import GithubStars from '../github-stars/GithubStars';
 
   export default {

@@ -44,7 +44,7 @@
 <script>
   import Vue from 'vue'
   import VueTsed from '../install'
-  import { resolveSidebarItems } from '../utils'
+  import { resolveSidebarItems } from '@tsed/vuepress-common'
   import Navbar from '../components/navbar/Navbar'
   import Sidebar from '../components/sidebar/Sidebar'
   import Contributing from '../views/Contributing'

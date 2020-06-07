@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  import { resolveNavLinkItem } from '../../utils'
+  import { resolveNavLinkItem } from '@tsed/vuepress-common'
   import DropdownLink from '../dropdown/DropdownLink.vue'
   import NavLink from './NavLink.vue'
 

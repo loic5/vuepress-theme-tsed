@@ -18,7 +18,7 @@
 </template>
 
 <script>
-  import { isActive } from '../../utils';
+  import { isActive } from '@tsed/vuepress-common';
   import NavLinks from '../navbar/NavLinks.vue';
   import SidebarGroup from './SidebarGroup.vue';
   import SidebarLink from './SidebarLink.vue';

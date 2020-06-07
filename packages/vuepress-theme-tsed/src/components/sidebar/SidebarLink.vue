@@ -1,5 +1,5 @@
 <script>
-  import { groupHeaders, hashRE, isActive } from '../../utils'
+  import { groupHeaders, hashRE, isActive } from '@tsed/vuepress-common'
 
   export default {
     functional: true,

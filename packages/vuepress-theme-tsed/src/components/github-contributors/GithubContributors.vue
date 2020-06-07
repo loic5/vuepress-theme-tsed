@@ -2,7 +2,7 @@
   <Contributors type="github-contributors" :contributors="contributors"></Contributors>
 </template>
 <script>
-  import { getContributors } from '../../services/GithubClient'
+  import { getContributors } from '@tsed/vuepress-common'
   import Contributors from '../contributors/Contributors.vue'
 
   export default {
@@ -12,7 +12,6 @@
         contributors: []
       }
     },
-
 
     components: {
       Contributors

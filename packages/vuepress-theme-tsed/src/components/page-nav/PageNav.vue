@@ -14,7 +14,7 @@
   </div>
 </template>
 <script>
-  import { resolvePage } from '../../utils'
+  import { resolvePage } from '@tsed/vuepress-common'
   import isString from 'lodash/isString'
   import isNil from 'lodash/isNil'
 

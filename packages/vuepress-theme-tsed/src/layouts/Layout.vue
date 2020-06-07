@@ -52,7 +52,7 @@
 <script>
   import Vue from 'vue'
   import VueTsed from '../install'
-  import { resolveOtherTopicsItems, resolveSidebarItems } from '../utils'
+  import { resolveOtherTopicsItems, resolveSidebarItems } from '@tsed/vuepress-common'
   import Navbar from '../components/navbar/Navbar'
   import Sidebar from '../components/sidebar/Sidebar'
   import Home from '../views/Home'

@@ -14,6 +14,8 @@
     "serve:prod": "lite-server --baseDir=\"docs/.vuepress/dist\""
   },
   "dependencies": {
+    "@tsed/markdown-it-symbols": "2.8.4",
+    "@tsed/vuepress-common": "2.8.4",
     "@sass-collective/sass-rem": "^1.4.1",
     "@silvanite/vuepress-plugin-tailwind": "^1.3.0",
     "@vuepress/plugin-active-header-links": "1.2.0",

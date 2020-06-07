@@ -6,7 +6,7 @@
   </ul>
 </template>
 <script>
-  import { findSymbols } from '../../utils/api'
+  import { findSymbols } from '@tsed/vuepress-common'
   import ApiSymbol from '../api-symbol/ApiSymbol'
 
   export default {

@@ -2,8 +2,8 @@
   <Contributors type="opencollective-backers" :contributors="backers"></Contributors>
 </template>
 <script>
+  import { getBackers } from '@tsed/vuepress-common'
   import Contributors from '../contributors/Contributors.vue'
-  import { getBackers } from '../../services/OpenCollectiveClient'
 
   export default {
     name: 'OpenCollectiveBackers',

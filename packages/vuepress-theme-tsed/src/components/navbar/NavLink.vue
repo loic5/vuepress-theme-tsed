@@ -20,7 +20,7 @@
 </template>
 
 <script>
-  import { ensureExt, isExternal, isMailto, isTel } from '../../utils'
+  import { ensureExt, isExternal, isMailto, isTel } from '@tsed/vuepress-common'
 
   export default {
     name: 'NavbarLink',
